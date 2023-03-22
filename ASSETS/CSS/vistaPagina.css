@@ -1,8 +1,8 @@
-body *{
-    border: solid;
-}
 body{
+    display: flex;
     background-color: aliceblue;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header{
     display: flex;
@@ -16,4 +16,27 @@ header nav{
 #perfil{
     display: flex;
     align-items: center;
+}
+section{
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vinculos ul{
+    list-style: none;
+}
+.redes ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.redes li{
+    margin-right: 10px;
 }
