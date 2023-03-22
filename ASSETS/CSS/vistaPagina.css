@@ -1,0 +1,15 @@
+body *{
+    border: solid;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+#perfil{
+    display: flex;
+    align-items: center;
+}
