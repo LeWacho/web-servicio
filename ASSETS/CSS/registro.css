@@ -1,6 +1,7 @@
 body{
-    background-image: url('https://th.bing.com/th/id/OIP._HTY693LtXoR9LYBhIl1MQHaCs?pid=ImgDet&rs=1 ' );
-    
+    background-image: url('https://th.bing.com/th/id/OIP._HTY693LtXoR9LYBhIl1MQHaCs?pid=ImgDet&rs=1 ' ) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
