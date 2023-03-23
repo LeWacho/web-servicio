@@ -1,0 +1,36 @@
+body{
+    background-image: url('https://th.bing.com/th/id/OIP._HTY693LtXoR9LYBhIl1MQHaCs?pid=ImgDet&rs=1 ' );
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    padding: 10%;
+}
+section{
+    display: flex;
+    padding: 1% 5%;
+    width: 90%;
+}
+.heroL{
+    width: 70%;
+    background-color: blue;
+    border-radius: 10px 0 0 10px;
+}
+.heroR{
+    width: 70%;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+.signGoogle{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    margin: 5%;
+}
+.signGoogle a{
+    align-items: center;
+    justify-content: center;
+}
