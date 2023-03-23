@@ -25,6 +25,72 @@ section{
     justify-content: center;
     margin: 0 auto;
 }
+.vertical
+{
+    display:flex;
+    flex-direction: column;
+
+}
+.botones ul
+{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: left;
+    align-items: center;
+
+}
+.botones li
+{
+    margin-right: 10px;
+
+}
+.cuadrito
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    justify-content: space-between;
+}
+.secciones
+{
+    background-color:beige;
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+.punto 
+{
+    background-color:coral;
+    width: 15%;
+    margin: 5% 0 0 10%;
+}
+.filtro
+{
+    border: solid 1px ;
+    background-color:cornflowerblue
+
+
+}
+.Cursos
+{
+    border:solid 1px;
+    margin: 6% 0;   
+
+}
+.imagenes ul
+{
+    list-style: none;
+    display:flex;
+    
+}
+.imagenes li
+{
+    margin: 10px;
+}q
 
 .evaluar {
     justify-content: center;
