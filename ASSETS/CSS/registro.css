@@ -15,9 +15,13 @@ section{
     width: 90%;
 }
 .heroL{
-    width: 70%;
-    background-color: blue;
+    width: 80%;
+    background-color: #264582;
     border-radius: 10px 0 0 10px;
+}
+.heroL #texto{
+    padding: 5px 10px;
+    color: white;
 }
 .heroR{
     width: 70%;
