@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header img{
+    width: 10%;
+    background-color: aqua;
+    
+}
