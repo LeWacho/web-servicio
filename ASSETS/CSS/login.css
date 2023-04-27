@@ -25,21 +25,20 @@ section{
 .izquierda{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 60%;
     background-color: #264582;
     border-radius: 20px 0 0 20px;
     
 }
 .izquierda h1 {
-    padding-top: 5em;
     color: white;
     border-bottom: 2px solid #fff;
     position:relative;
 }
 .izquierda span
 {
-    padding-bottom: 5em;
+    padding-top: 5em;
     color: white;
 }
 .izquierda h1{
