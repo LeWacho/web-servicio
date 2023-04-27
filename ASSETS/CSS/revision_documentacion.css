@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header img{
+    width: 10%;
+    background-color: aqua;
+    
+}
+body{
+    background-color: gray;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+#listas{
+    
+    margin: 5%;
+    padding: 5%;
+    border: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#APROBADO{
+    
+    margin: 10px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+#REPROBADO{
+    width: 10%;
+    background-color: red;
+}
