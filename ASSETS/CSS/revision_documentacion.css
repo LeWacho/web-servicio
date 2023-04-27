@@ -16,6 +16,9 @@ section{
     border-radius: 20px;
     padding: 10px;
 }
+li{
+    margin: 10px;
+}
 #listas{
     
     margin: 5%;
@@ -27,7 +30,7 @@ section{
 
 #APROBADO{
     
-    margin: 10px;
+    
     border-radius: 20px;
     background-color: green;
 }
