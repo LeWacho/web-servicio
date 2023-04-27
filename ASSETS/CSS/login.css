@@ -19,9 +19,8 @@ header img{
 }
 section{
     width: 60em;
-    height: 30em;
+    height: 35em;
     display: flex;
-    background-color: aliceblue;
 }
 .izquierda{
     display: flex;
@@ -47,23 +46,13 @@ section{
 }
 .derecha
 {
-  position: relative;
-  width: 40%;   
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 0 20px 20px 0;
-
-
+    position: relative;
+    width: 40%;   
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
 }
 .derecha .Iniciar-Sesion
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
     padding: 40px;
 }
@@ -118,7 +107,7 @@ section{
     font-size: .9em;
     color: #264582;
     font-weight: 500;
-    margin: -15px 0 15px;
+    margin: -15px 0 30px;
     display: flex;
     justify-content: space-between;
 }
