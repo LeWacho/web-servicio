@@ -95,7 +95,7 @@ li{
     justify-content: space-around;
 }
 
-#APROBADO{
+#APROBADO button{
     width: 130px;
     height: 50px;
     background: green;
@@ -109,13 +109,13 @@ li{
     margin-left: 40px;
     transition: .5s;
 }
-#APROBADO :hover
+#APROBADO .Pass:hover
 {
     background: #264582;   
     color: #fff;
 }
 
-#REPROBADO{
+#REPROBADO button{
     width: 130px;
     height: 50px;
     background: red;
