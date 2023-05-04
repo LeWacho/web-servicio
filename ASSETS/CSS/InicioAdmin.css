@@ -12,55 +12,106 @@ body{
     background-color: #D9D9D9;
 }
 header{
+    position: fixed;
+    top: 10;
+    left: 0 ;
+    width: 100%;
+    height: 10%;
+    padding: 20px 100px;
+    background: #fff;
     display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    height: 100px;
+    justify-content: space-between;
+    align-items: center;
     
 }
-.contenido{
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 70%;
-    background-color: #D9D9D9;
-    justify-content: space-between;
+header img
+{
+   height: 100px; 
 }
-.per {
-    align-self: center;
-    background-color: brown;
-    height: 35px;
-    border-radius: 50%;
+.navegacion a
+{
+    position: relative;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
 }
-nav{
-    height: 30%;
-    display: flex;
-    background-color: red;
+.navegacion a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background:#264582;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+
 }
-nav h7{
-    display: flex;
-    align-items: center;
-    background-color: olive;
-    height:100%;
-    padding-right: 5px;
-    padding-left: 5px;
+.navegacion a:hover::after
+{
+    transform: scaleX(1);
+    transform-origin: right;
 }
-.contenido img{
-    height: 100%;
+.navegacion .btnLogOut 
+{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#264582;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navegacion .btnLogOut:hover
+{
+    background: #264582;   
+    color: #fff;
+}
+section 
+{
+    padding-top: 10em;
 }
 .gridRaro{
-    padding: 50px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-gap: 20px;
+    align-items: center;
+    margin-left: 20%;  
 }
 .gridRaro img {
-    max-height: 100px;
-    max-width: 100%;
+    height: 300px;
+    width: 100%;
 }
-.gridRaro div{
-    width: 200px;
+.gripRaro .boton h6
+{
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.gridRaro .boton {
+    
+    width: 500px;
     padding: 1px;
-    border: 1px solid;
+    border: 1px solid #264582;
     text-align: center;
+    
+}
+.gripRaro .boton:hover
+{
+    background: #264582;
+    color: #fff;
+    
 }
