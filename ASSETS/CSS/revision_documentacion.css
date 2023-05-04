@@ -129,6 +129,9 @@ li{
     margin-left: 40px;
     transition: .5s;
 }
+ul{
+    list-style: none;
+}
 #REPROBADO .dismissed:hover
 {
     background: #264582;   
