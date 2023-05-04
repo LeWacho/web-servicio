@@ -25,11 +25,10 @@ section{
 .izquierda{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     width: 60%;
     background-color: #264582;
     border-radius: 20px 0 0 20px;
-    padding: 1rem;
     
 }
 .izquierda h1 {
@@ -39,7 +38,8 @@ section{
 }
 .izquierda span
 {
- color: white;
+    padding-top: 5em;
+    color: white;
 }
 .izquierda h1{
     font-family: 100xp;
