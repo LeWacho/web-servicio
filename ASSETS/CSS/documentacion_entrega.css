@@ -100,3 +100,25 @@ section{
 
 
 }
+.SelectArchive
+{
+    width: 200px;
+    height: 30px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#264582;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.SelectArchive
+{
+    background: #264582;   
+    color: #fff;
+}
