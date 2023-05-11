@@ -81,5 +81,22 @@ header img
 section{
     background-color: aliceblue;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 7%;
+    text-decoration: none;
+}
+.Lista
+{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 40px;
+
+
+}
+.Lista li
+{
+    list-style: none;
+    border-top: 1px solid aliceblue;
+
+
 }
