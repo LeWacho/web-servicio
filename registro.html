@@ -33,6 +33,10 @@
                     <span class="iconos"><ion-icon name="lock-closed"></ion-icon></span>
                     <input id="passwordU" type="Contraseña" required bind:value={confir}/>
                     <label for="passwordU">Confirmar Contraseña</label>
+                    <select name="menu" id="menu">
+                        <option value="administrador"> administrador</option>
+                        <option value="profesor">profesor</option>
+                    </select>
                 </div>
                 <button type="submit" class="btn" on:click={onClickUser}>Registrar sesión</button>
                 <div class="login-registro">
