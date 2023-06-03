@@ -183,7 +183,19 @@ section{
     font-size: medium;
     text-overflow: inherit;
 }
-#carta button{
+#aprobar{
+    background-color: rgb(119, 252, 93);
+    border: #fff;
     width: 100px;
-    height: 30px;
+    height: 35px;
+    font-size: large;
+    border-radius: 10px;
+}
+#denegar{
+    background-color: rgb(255, 102, 63);
+    border: #fff;
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    border-radius: 10px;
 }
