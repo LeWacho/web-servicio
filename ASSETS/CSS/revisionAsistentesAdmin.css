@@ -305,3 +305,38 @@ form input#archivo
     background: #264582;
     color: #fff;
 }
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    min-height: 600px;
+    max-height: 100%;
+    margin: 30px;
+    padding: 10px;    
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#carta {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 80%;
+    background-color: aliceblue;
+    
+}
+#carta img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+}
+#carta h6{
+    color: #264582;
+    font-size: larger;
+}
