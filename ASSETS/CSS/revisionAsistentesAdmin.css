@@ -320,6 +320,11 @@ section{
     background-color: #fff;
 }
 
+section h2{
+    margin-bottom: 20px;
+}
+
+
 #carta {
     display: flex;
     align-items: center;
