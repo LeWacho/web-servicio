@@ -24,9 +24,100 @@ header{
     align-items: center;
     
 }
+.CuadroTexto
+{
+   margin-left: 7%;
+}
+.CuadroTexto h1
+{
+    padding-top: 30%;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    color: #264582;
+
+}
+section
+{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin: 120px;
+    padding: 20px;
+}
 header img
 {
    height: 100px; 
+}
+.CuadroTexto h3
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    color: #264582;
+    margin-left: 10px;
+}
+.CuadroTexto .BotonSave
+{
+    width: 130px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-bottom:10px;
+    margin-top: 10px;
+
+}
+.CuadroTexto .Boton
+{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #264582;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #264582;
+    margin: auto;
+}
+.CuadroTexto .BotonSave:hover
+{
+    background: #264582;
+    color: #fff;
+}
+.AreaText
+{
+    align-items: center;
+}
+.Revision .boton .BotonSave:hover
+{
+    background: #264582;
+    color: #fff;
+}
+.DropDown 
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #264582;
+    background: transparent;
+    outline:none;
+    margin-left: 130px;
+    text-align: center;
+
 }
 .navegacion a
 {
@@ -78,21 +169,140 @@ header img
     background: #264582;   
     color: #fff;
 }
-.contenido{
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 70%;
-    background-color: blue;
-    justify-content: space-between;
+.div .select
+{
+    padding: 80%;
 }
-.per {
-    align-self: center;
-    background-color: brown;
-    height: 35px;
-    border-radius: 50%;
-}
+.BotonSend
+{
+    width: 130px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-bottom:10px;
+    margin-top: 10px;
 
-.contenido img{
+}
+.BotonSend
+{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #264582;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #264582;
+    margin-left: auto;
+
+}
+.BotonSend:hover
+{
+    background: #264582;
+    color: #fff;
+}
+form p#Text
+{
+    text-align: center;
+}
+form div#File
+{
+    position: relative;
+    width: 190px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+form div#File
+{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 220px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #264582;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #264582;
+
+}
+form div#File:hover
+{
+    background: #264582;
+    color: #fff;
+}
+form input#archivo 
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
     height: 100%;
+    opacity: 0;
+    
+}
+.BotonSaveFin
+{
+    align-content: center;
+    width: 130px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-bottom:20px;
+    margin-top: 10px;
+
+}
+.BotonSaveFin
+{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #264582;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #264582;
+    
+}
+.BotonSaveFin:hover
+{
+    background: #264582;
+    color: #fff;
 }
