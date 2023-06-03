@@ -24,9 +24,78 @@ header{
     align-items: center;
     
 }
+.CuadroTexto
+{
+   margin-left: 7%;
+}
+.CuadroTexto h1
+{
+    padding-top: 30%;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    color: #264582;
+
+}
+
 header img
 {
    height: 100px; 
+}
+.CuadroTexto h3
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    color: #264582;
+}
+.CuadroTexto .BotonSave
+{
+    width: 130px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.CuadroTexto .Boton  
+{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 400px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #264582;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color: #264582;
+}
+.AreaText
+{
+    align-items: center;
+}
+.Revision .boton .BotonSave:hover
+{
+    background: #264582;
+    color: #fff;
+}
+.DropDown 
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #264582;
+    background: transparent;
+    outline:none;
 }
 .navegacion a
 {
@@ -78,21 +147,77 @@ header img
     background: #264582;   
     color: #fff;
 }
-.contenido{
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 70%;
-    background-color: blue;
-    justify-content: space-between;
+.div .select
+{
+    padding: 80%;
 }
-.per {
-    align-self: center;
-    background-color: brown;
-    height: 35px;
-    border-radius: 50%;
+.BotonSend{
+    width: 130px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #264582;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #264582;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.BotonSend
+{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #264582;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color: #264582;
+}
+BotonSend:hover
+{
+    background: #264582;
+    color: #fff;
 }
 
-.contenido img{
-    height: 100%;
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    min-height: 600px;
+    max-height: 100%;
+    margin: 30px;
+    padding: 10px;    
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#carta {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 80%;
+    background-color: aliceblue;
+    
+}
+#carta img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+}
+#carta h6{
+    color: #264582;
+    font-size: larger;
 }
