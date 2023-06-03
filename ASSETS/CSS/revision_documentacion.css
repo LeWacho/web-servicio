@@ -78,63 +78,6 @@ header img
     background: #264582;   
     color: #fff;
 }
-
-li{
-    padding: 1.1em;
-    margin: 5%;
-    justify-content: space-around ;
-}
-#listas {
-    
-    margin: 5%;
-    padding: 5%;
-    border: 5%;
-    display: flex;
-    justify-content: space-around;
-}
-
-#APROBADO button{
-    width: 130px;
-    height: 50px;
-    background: green;
-    border: 2px solid #fff;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color:#fff;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
-}
-#APROBADO .Pass:hover
-{
-    background: #264582;   
-    color: #fff;
-}
-
-#REPROBADO button{
-    width: 130px;
-    height: 50px;
-    background: red;
-    border: 2px solid #fff;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color:#fff;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
-}
-ul{
-    list-style: none;
-}
-#REPROBADO .dismissed:hover
-{
-    background: #264582;   
-    color: #fff;
-}
 section{
     display: flex;
     align-items: center;
