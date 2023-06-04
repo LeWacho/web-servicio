@@ -100,8 +100,29 @@ header img
     color: #264582;
     background: transparent;
     outline:none;
+    
 
 
+}
+select
+{
+    background-color: transparent;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    color: #264582;
+    transition: translate(-50%);
+    cursor: pointer;
+    border: 2px solid #264582;
+    font-size: 1.1em;
+    outline: none;
+    list-style: none;
+}
+
+select :hover
+{
+    background: #264582;   
+    color: #fff;
 }
 .navegacion a
 {
@@ -258,6 +279,7 @@ section
     border-radius: 10px;
     background-color: #D9D9D9;
     color: #264582;
+    font-size: 1.1em;
     
 }
 .BotonSend
