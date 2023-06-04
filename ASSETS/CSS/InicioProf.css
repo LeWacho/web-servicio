@@ -81,14 +81,13 @@ header img
 
 .Revision{
     width: 90%;
-    max-width: 1200px;
-    padding: 45px 0px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     align-items: center;
     margin-top: 10%;
-    margin-left: 10%;
+    
 }
 .Revision img {
     padding-top:15px;
@@ -98,7 +97,7 @@ header img
 }
 .Revision .BotonRev
 {
-    width: 400px;
+    width: 80%;
     height: 30px;
     background: transparent;
     border: 2px solid #264582;
