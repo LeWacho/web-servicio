@@ -137,6 +137,27 @@ a{
     transition: .5s;
 }
 
+#carta {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 80%;
+    background-color: #7fffd470;
+    
+}
+#carta img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+}
+#carta h6{
+    color: #264582;
+    font-size: larger;
+}
 .pie-pagina
 {
     margin: 10% auto;
