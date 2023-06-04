@@ -25,6 +25,22 @@ header{
     
 }
 
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+  }
+  
+  
+  select::-webkit-scrollbar-thumb {
+    background-color: #264582; 
+    border-radius: 4px; 
+  }
+  
+  
+  select::-webkit-scrollbar-thumb:hover {
+    background-color: #63728f;
+  }
+
 .CuadroTexto h1
 {
     display:flex;
