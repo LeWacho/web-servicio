@@ -80,6 +80,9 @@ header img
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
     width: 90%;
     min-height: 600px;
@@ -92,6 +95,7 @@ section{
     border: 5px solid #264582;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 100%;
 
 }
 .superior div{
@@ -108,6 +112,7 @@ section{
     transition: .5s;
 }
 #titulo:hover{
+    border-top-left-radius: 10px;
     background: #ffffff;
 
 }
@@ -123,6 +128,7 @@ a{
     text-decoration: none;
 }
 #titulo-denegados{
+    border-top-right-radius: 10px;
     background-color: #fff;
     text-align: center;
     width: 100%;
