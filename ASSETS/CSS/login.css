@@ -22,6 +22,9 @@ section{
     height: 35em;
     display: flex;
 }
+span{
+    margin: 10%;
+}
 .izquierda{
     display: flex;
     flex-direction: column;
@@ -34,7 +37,7 @@ section{
 .izquierda h1 {
     color: white;
     border-bottom: 2px solid #fff;
-    position:relative;
+    margin: 10%;
 }
 .izquierda span
 {
@@ -164,4 +167,19 @@ section{
 .login-registro p a:hover
 {
     text-decoration: underline;
+}
+
+select{
+    margin-bottom: 10%;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #264582;
+    height: 50px;
+    font-size: 1.1em;
+    color: #264582;
+}
+select option :hover{
+    background: #264582;
+    color: #fff;
 }
