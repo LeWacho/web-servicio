@@ -79,7 +79,6 @@ header img
     color: #fff;
 }
 
-
 section{
     margin-top: 100px;
     width: 90%;
@@ -110,9 +109,19 @@ section{
 }
 #titulo:hover{
     background: #ffffff;
+
+}
+#titulo a{
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+#titulo a:hover{
     color: #264582;
 }
-
+a{
+    text-decoration: none;
+}
 
 .pie-pagina
 {
